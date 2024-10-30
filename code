@@ -1,0 +1,30 @@
+# Initialize a git repository
+git init
+
+# Add the Python file to the staging area
+git add self_care_reminder_bot.py
+
+# Commit the file with a message
+git commit -m "Initial commit: Added self-care reminder bot"
+https://github.com/your-username/self-care-reminder-bot.git
+# Add the remote URL to your local Git repository
+git remote add origin https://github.com/your-username/self-care-reminder-bot.git
+
+# Push your code to GitHub
+git push -u origin main
+# Create a README.md file
+echo "# Self-Care Reminder Bot" > README.md
+echo "This bot sends self-care reminders at regular intervals to promote wellness." >> README.md
+
+# Add README.md to the staging area and commit it
+git add README.md
+git commit -m "Added README file"
+git push origin main
+# Create a .gitignore file
+echo "venv/" > .gitignore
+echo "__pycache__/" >> .gitignore
+
+# Add .gitignore to the staging area and commit it
+git add .gitignore
+git commit -m "Added .gitignore file"
+git push origin main
